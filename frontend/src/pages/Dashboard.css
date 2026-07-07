@@ -1,0 +1,51 @@
+.dashboard {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #0079F2;
+}
+
+.content-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.content-item {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.content-item:hover {
+  border-color: #0079F2;
+}
+
+.content-item h4 {
+  color: #0079F2;
+  margin-bottom: 0.5rem;
+}
+
+.content-item p {
+  color: #aaa;
+}
+
+.error {
+  color: #ff6b6b;
+  padding: 1rem;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: 4px;
+}

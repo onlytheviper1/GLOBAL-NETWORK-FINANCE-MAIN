@@ -1,0 +1,19 @@
+{
+  "name": "global-network-finance",
+  "version": "1.0.0",
+  "description": "Global Network Finance - Financial Platform with CMS Backend",
+  "type": "module",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "preview:frontend": "cd frontend && npm run preview",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
